@@ -1,0 +1,204 @@
+body {
+
+margin: 0;
+
+font-family: Arial;
+
+/* BACKGROUND IMAGE */
+
+background-image: url("background1.jpg");
+
+background-size: cover;
+
+background-position: center;
+
+background-repeat: no-repeat;
+
+background-attachment: fixed;
+
+}
+
+
+
+/* HEADER */
+
+header {
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+background: rgba(58,110,165,0.9);
+
+padding: 20px;
+
+}
+
+
+.logo {
+
+color: white;
+
+}
+
+
+nav a {
+
+color: white;
+
+text-decoration: none;
+
+margin-left: 20px;
+
+font-weight: 500;
+
+}
+
+
+nav a:hover {
+
+text-decoration: underline;
+
+}
+
+
+
+/* HERO SECTION */
+
+.hero {
+
+text-align: center;
+
+padding: 140px 20px;
+
+color: #222;
+
+}
+
+
+.hero h1 {
+
+font-size: 42px;
+
+}
+
+
+.hero p {
+
+font-size: 18px;
+
+}
+
+
+
+/* HERO BUTTONS */
+
+.hero-buttons {
+
+margin-top: 30px;
+
+display: flex;
+
+justify-content: center;
+
+gap: 20px;
+
+}
+
+
+
+/* BUTTON STYLE */
+
+.btn {
+
+padding: 12px 30px;
+
+background: #3a6ea5;
+
+color: white;
+
+text-decoration: none;
+
+border-radius: 8px;
+
+transition: 0.3s;
+
+}
+
+
+.btn:hover {
+
+background: #2c4f78;
+
+}
+
+
+
+/* WHITE CARD SECTIONS */
+
+.card-section {
+
+background: rgba(255,255,255,0.92);
+
+margin: 60px auto;
+
+width: 80%;
+
+padding: 60px;
+
+border-radius: 12px;
+
+text-align: center;
+
+}
+
+
+
+/* FEATURES GRID */
+
+.features-container {
+
+display: flex;
+
+justify-content: center;
+
+flex-wrap: wrap;
+
+gap: 25px;
+
+margin-top: 30px;
+
+}
+
+
+.feature-card {
+
+background: white;
+
+padding: 20px;
+
+border-radius: 12px;
+
+width: 220px;
+
+box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+
+}
+
+
+
+/* FOOTER */
+
+footer {
+
+background: rgba(58,110,165,0.9);
+
+color: white;
+
+text-align: center;
+
+padding: 20px;
+
+}
