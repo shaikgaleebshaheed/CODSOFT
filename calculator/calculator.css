@@ -1,0 +1,219 @@
+body {
+
+margin:0;
+
+height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-family:Arial;
+
+background:linear-gradient(120deg,#8bb7d7,#6aa6d6);
+
+overflow:hidden;
+
+}
+
+
+
+/* BACKGROUND CIRCLE */
+
+.background-circle {
+
+position:absolute;
+
+width:550px;
+
+height:550px;
+
+background:#2c8ed6;
+
+border-radius:50%;
+
+z-index:-1;
+
+}
+
+
+
+/* CALCULATOR CARD */
+
+.calculator {
+
+background:rgba(255,255,255,0.90);
+
+backdrop-filter:blur(12px);
+
+padding:35px;
+
+border-radius:25px;
+
+box-shadow:0px 15px 40px rgba(0,0,0,0.25);
+
+width:360px;
+
+}
+
+
+
+/* DISPLAY SCREEN */
+
+#display {
+
+width:100%;
+
+height:80px;
+
+border:none;
+
+border-radius:15px;
+
+font-size:32px;
+
+padding:15px;
+
+margin-bottom:25px;
+
+text-align:right;
+
+background:#eef3f8;
+
+outline:none;
+
+}
+
+
+
+/* BUTTON GRID LAYOUT */
+
+.buttons {
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:15px;
+
+}
+
+
+
+/* BUTTON STYLE */
+
+button {
+
+height:70px;
+
+font-size:22px;
+
+border:none;
+
+border-radius:15px;
+
+background:#e6edf5;
+
+cursor:pointer;
+
+transition:0.2s ease;
+
+box-shadow:0px 3px 8px rgba(0,0,0,0.15);
+
+}
+
+
+
+/* BUTTON HOVER EFFECT */
+
+button:hover {
+
+background:#d0e2f4;
+
+transform:scale(1.05);
+
+}
+
+
+
+/* EQUAL BUTTON */
+
+.equal {
+
+background:#2c8ed6;
+
+color:white;
+
+grid-row:span 2;
+
+height:155px;
+
+box-shadow:0px 6px 15px rgba(44,142,214,0.5);
+
+}
+
+
+
+/* ZERO BUTTON */
+
+.zero {
+
+grid-column:span 2;
+
+}
+
+
+
+/* OPERATOR BUTTONS LOOK BETTER */
+
+button:nth-child(3),
+button:nth-child(4),
+button:nth-child(8),
+button:nth-child(12),
+button:nth-child(16) {
+
+font-weight:bold;
+
+}
+
+
+
+/* SMALL SCREEN SUPPORT */
+
+@media(max-width:500px){
+
+.calculator{
+
+width:300px;
+
+padding:25px;
+
+}
+
+button{
+
+height:60px;
+
+font-size:18px;
+
+}
+
+#display{
+
+height:70px;
+
+font-size:26px;
+
+}
+
+.background-circle{
+
+width:400px;
+
+height:400px;
+
+}
+
+}
