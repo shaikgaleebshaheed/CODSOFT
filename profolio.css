@@ -1,0 +1,264 @@
+body {
+
+    margin: 0;
+    font-family: Arial;
+
+    background-image: url("background.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+}
+
+
+/* HEADER */
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #7c6ccf;
+
+    padding: 20px;
+
+}
+
+
+.logo {
+
+    color: white;
+    font-weight: bold;
+
+}
+
+
+nav a {
+
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+
+}
+
+
+nav a:hover {
+
+    color: #2b1f66;
+
+}
+
+
+
+/* INTRO SECTION */
+
+.intro {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 80px;
+
+}
+
+.intro-image img {
+
+    width: 320px;      /* increased width */
+
+    height: 420px;     /* increased height */
+
+    object-fit: cover; /* keeps image shape clean */
+
+    border-radius: 25px;
+
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.25);
+
+}
+
+
+
+/* ABOUT CARD */
+
+.about-card {
+
+    background: white;
+
+    width: 60%;
+
+    margin: auto;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.2);
+
+}
+
+
+.about-card h2 {
+
+    color: #4b3bb5;
+
+}
+
+
+.about-card p {
+
+    line-height: 1.8;
+
+}
+
+
+
+/* SKILLS SECTION */
+
+#skills {
+
+    text-align: center;
+
+}
+
+
+.skill-box {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    gap: 20px;
+
+    width: 70%;
+
+    margin: auto;
+
+}
+
+
+.skill-box div {
+
+    background: white;
+
+    padding: 18px;
+
+    border-radius: 12px;
+
+    font-weight: 600;
+
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+
+    transition: 0.3s;
+
+}
+
+
+.skill-box div:hover {
+
+    transform: translateY(-6px);
+
+    background: #7c6ccf;
+
+    color: white;
+
+}
+
+
+
+/* PROJECT SECTION */
+
+.project {
+
+    width: 70%;
+
+    margin: auto;
+
+    margin-bottom: 30px;
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+
+}
+
+
+
+/* BUTTON */
+
+.btn {
+
+    display: inline-block;
+
+    margin-top: 10px;
+
+    background: #7c6ccf;
+
+    color: white;
+
+    padding: 10px 18px;
+
+    text-decoration: none;
+
+    border-radius: 6px;
+
+    transition: 0.3s;
+
+}
+
+
+.btn:hover {
+
+    background: #4b3bb5;
+
+}
+
+
+
+/* CONTACT SECTION */
+
+#contact {
+
+    background: white;
+
+    width: 60%;
+
+    margin: auto;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+
+}
+
+
+
+/* FOOTER */
+
+footer {
+
+    background: #7c6ccf;
+
+    text-align: center;
+
+    padding: 15px;
+
+    color: white;
+
+}
