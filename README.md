@@ -22,3 +22,10 @@ These projects helped me improve my skills in designing web pages and creating i
 - JavaScript
 
 Through these projects, I practiced webpage design, layout creation, and adding interactivity using JavaScript.
+
+
+
+
+
+LinkedIn Profile:
+https://www.linkedin.com/in/shaik-galeeb-shaheed-a690a13a6/
